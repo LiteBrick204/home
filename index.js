@@ -1,11 +1,6 @@
-var checkbox = document.querySelector('input[name=mode]');
- checkbox.addEventListener(‘change’, function() {(this.checked) ? trans(‘darktheme’) : trans(‘lighttheme’)
-})
-
-let trans = (theme) => {
-document.documentElement.classList.add(‘transition’);
-window.setTimeout(() => {
-		document.documentElement.classList.remove(‘transition’);
-	}, 100)
-	document.documentElement.setAttribute(‘data-theme’, theme)
-}
+var body = document.querySelector('body');
+setInterval(()=>{
+var randomColor = '#'+Math.random().toString(16).slice(-6);
+	body.style.borderColor = randomColor;
+	console.log(randomColor);
+},420)
