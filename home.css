@@ -1,0 +1,34 @@
+body{
+    border: 13px solid cornsilk;
+    background: rgba(36, 35, 35,0.9);
+    font-family: "Great Vibes", sans-serif;
+}
+
+.jumbotron{
+    margin-top: 30px;
+}
+
+.icon{
+    font-family : "Arial",serif;
+}
+
+.btn-success {
+    color: rgb(78,161,105);
+    background-color: #031B0E;
+    border-color: #276040;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    font-weight: bolder;
+}
+html {
+	height: 100%;
+}
+ul li:hover {
+    background: rgba(0,255,255,0.2);
+}
+
+#center{
+    text-align:center;
+    color: silver;
+    background: rgba(0,0,0,0.5);
+}
