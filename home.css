@@ -5,6 +5,10 @@ body{
     font-family: "Great Vibes", sans-serif;
 }
 
+ ::-webkit-scrollbar {
+  display: none;
+}
+
 .jumbotron{
     margin-top: 30px;
 }
@@ -13,16 +17,8 @@ body{
     font-family : "Arial",serif;
 }
 
-.btn-success {
-    color: rgb(78,161,105);
-    background-color: #031B0E;
-    border-color: #276040;
-    text-decoration: underline;
-    text-decoration-color: yellow;
-    font-weight: bolder;
-}
 html {
-	height: 100%;
+	height: 30px;
 }
 ul li:hover {
     background: rgba(0,255,255,0.2);
