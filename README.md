@@ -1,10 +1,7 @@
 ## Personal Portofolio Site
 
----
-"Tech Stack Used":"HTML,CSS,BOOTSTRAP,JS"
----
+- Made using HTML, CSS, Bootstrap and JS.
+
 - Visit at https://litebrick204.github.io/home
 
 - Cheers :)
-
-
