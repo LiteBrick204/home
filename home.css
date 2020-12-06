@@ -1,5 +1,6 @@
 body{
-    border: 13px solid cornsilk;
+    margin:20px;
+    border: 13px dotted cornsilk;
     background: rgba(36, 35, 35,0.9);
     font-family: "Great Vibes", sans-serif;
 }
@@ -31,4 +32,5 @@ ul li:hover {
     text-align:center;
     color: silver;
     background: rgba(0,0,0,0.5);
+    border:none;
 }
