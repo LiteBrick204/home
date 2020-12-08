@@ -16,7 +16,7 @@ body{
 html {
 	height: 30px;
 }
-ul li a:hover {
+ul li a:hover,button:hover {
     background: rgba(0,255,255,0.2);
 }
 
